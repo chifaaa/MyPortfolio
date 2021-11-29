@@ -13,6 +13,7 @@ const data = [
 const Languages = () => (
   <Section>
     <SectionTitle>Languages</SectionTitle>
+    <br />
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
